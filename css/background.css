@@ -1,0 +1,66 @@
+body{
+font-family:Arial;
+text-align:center;
+background:#f4f4f4;
+}
+
+h1{
+margin:20px;
+}
+
+/* Common box style */
+
+.box{
+width:80%;
+height:200px;
+margin:20px auto;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+font-size:22px;
+border-radius:10px;
+}
+
+/* Solid color */
+
+.solid{
+background:steelblue;
+}
+
+/* Image repeat */
+
+.image-repeat{
+background-image:url("../images/img1.jpg");
+background-repeat:repeat;
+}
+
+/* Linear gradient */
+
+.linear-gradient{
+background:linear-gradient(to right, red, orange, yellow);
+}
+
+/* Radial gradient */
+
+.radial-gradient{
+background:radial-gradient(circle, purple, blue);
+}
+
+/* Multiple backgrounds */
+
+.multiple-bg{
+background-image:
+url("../images/img2.jpg"),
+linear-gradient(white,gray);
+
+background-size:cover;
+}
+
+/* Blend mode */
+
+.blend{
+background-image:url("../images/img3.jpg");
+background-color:rgba(0,0,0,0.5);
+background-blend-mode:multiply;
+}

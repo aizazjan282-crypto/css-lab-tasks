@@ -1,0 +1,110 @@
+body{
+font-family:Arial, sans-serif;
+background:#f4f6f9;
+text-align:center;
+}
+
+h1{
+background:#2c3e50;
+color:white;
+padding:20px;
+margin:0;
+}
+
+/* Form Container */
+.registration-form{
+background:white;
+width:400px;
+margin:30px auto;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+text-align:left;
+}
+
+/* Labels */
+.registration-form label{
+display:block;
+margin:15px 0 5px;
+font-weight:bold;
+}
+
+/* Input Fields */
+.registration-form input[type=text],
+.registration-form input[type=email],
+.registration-form input[type=password],
+.registration-form select{
+width:100%;
+padding:10px;
+border:2px solid #ccc;
+border-radius:5px;
+transition:0.3s;
+}
+
+/* Focus State */
+.registration-form input:focus,
+.registration-form select:focus{
+border-color:#3498db;
+outline:none;
+box-shadow:0 0 5px #3498db;
+}
+
+/* Checkbox */
+.checkbox-container{
+display:block;
+position:relative;
+padding-left:30px;
+margin-top:10px;
+cursor:pointer;
+user-select:none;
+}
+
+.checkbox-container input{
+position:absolute;
+opacity:0;
+}
+
+.checkmark{
+position:absolute;
+top:0;
+left:0;
+height:20px;
+width:20px;
+background:#ccc;
+border-radius:3px;
+}
+
+.checkbox-container input:checked ~ .checkmark{
+background:#3498db;
+}
+
+/* Submit Button */
+.registration-form button{
+width:100%;
+padding:12px;
+background:#3498db;
+color:white;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+margin-top:20px;
+transition:0.3s;
+}
+
+.registration-form button:hover{
+background:#2980b9;
+}
+
+/* Success and Error Messages */
+.success-msg{
+color:green;
+display:none;
+margin-top:15px;
+}
+
+.error-msg{
+color:red;
+display:none;
+margin-top:15px;
+}

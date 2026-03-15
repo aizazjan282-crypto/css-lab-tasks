@@ -1,0 +1,20 @@
+.btn1{
+padding:10px 20px;
+background:blue;
+color:white;
+border:none;
+}
+
+.btn1:hover{
+background:darkblue;
+}
+
+.btn2{
+background:linear-gradient(red,orange);
+padding:10px 20px;
+}
+
+.btn3{
+background:gray;
+cursor:not-allowed;
+}

@@ -1,0 +1,15 @@
+.card{
+
+width:250px;
+padding:20px;
+border:1px solid #ddd;
+box-shadow:0 5px 10px gray;
+transition:0.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}

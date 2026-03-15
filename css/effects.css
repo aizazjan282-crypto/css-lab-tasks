@@ -1,0 +1,111 @@
+body{
+font-family:Arial;
+text-align:center;
+background:#f4f4f4;
+}
+
+/* Gradient Text */
+
+.gradient-text{
+font-size:40px;
+background:linear-gradient(red,orange,blue);
+-webkit-background-clip:text;
+color:transparent;
+}
+
+/* Custom Checkbox */
+
+.checkbox-container{
+display:inline-block;
+position:relative;
+padding-left:30px;
+cursor:pointer;
+}
+
+.checkbox-container input{
+position:absolute;
+opacity:0;
+}
+
+.checkmark{
+position:absolute;
+left:0;
+top:0;
+height:20px;
+width:20px;
+background:#ccc;
+}
+
+.checkbox-container input:checked ~ .checkmark{
+background:green;
+}
+
+/* Custom Radio */
+
+.radio-container{
+display:inline-block;
+position:relative;
+padding-left:30px;
+margin:10px;
+cursor:pointer;
+}
+
+.radio-container input{
+position:absolute;
+opacity:0;
+}
+
+.radio-mark{
+position:absolute;
+left:0;
+top:0;
+height:20px;
+width:20px;
+background:#ccc;
+border-radius:50%;
+}
+
+.radio-container input:checked ~ .radio-mark{
+background:blue;
+}
+
+/* Loading Animation */
+
+.loader{
+border:8px solid #eee;
+border-top:8px solid blue;
+border-radius:50%;
+width:50px;
+height:50px;
+margin:auto;
+animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+
+/* Text Clipping */
+
+.clip-text{
+font-size:40px;
+background:url("../images/img1.jpg");
+background-size:cover;
+-webkit-background-clip:text;
+color:transparent;
+}
+
+/* Complex Shadow */
+
+.shadow-box{
+width:250px;
+margin:auto;
+padding:30px;
+background:white;
+box-shadow:
+0 5px 10px rgba(0,0,0,0.2),
+0 10px 20px rgba(0,0,0,0.15),
+0 15px 30px rgba(0,0,0,0.1);
+font-size:20px;
+}

@@ -1,0 +1,15 @@
+.gallery img{
+
+width:200px;
+border-radius:20px;
+box-shadow:0 0 10px black;
+transition:0.5s;
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.2);
+filter:grayscale(100%);
+
+}

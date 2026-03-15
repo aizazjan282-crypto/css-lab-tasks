@@ -1,0 +1,26 @@
+.nav{
+
+display:flex;
+background:black;
+
+}
+
+.nav li{
+
+list-style:none;
+padding:15px;
+
+}
+
+.nav a{
+
+color:white;
+text-decoration:none;
+
+}
+
+.nav a:hover{
+
+color:yellow;
+
+}
